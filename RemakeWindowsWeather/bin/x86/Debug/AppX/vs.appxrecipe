@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>923740b2-4e82-42c5-a1cf-7b540bfca507</PackageIdentityName>
     <PackageIdentityPublisher>CN=flaur</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-30T21:06:14.942</Modified>
+      <Modified>2017-01-31T20:22:07.836</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\bin\x86\Debug\RemakeWindowsWeather.exe">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\bin\x86\Debug\RemakeWindowsWeather.exe">
       <PackagePath>entrypoint\RemakeWindowsWeather.exe</PackagePath>
-      <Modified>2017-01-30T21:06:14.265</Modified>
+      <Modified>2017-01-31T20:22:06.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\flaur\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -492,60 +492,60 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T20:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-01-30T19:14:11.458</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-01-29T11:33:19.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-01-29T11:33:19.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-01-29T11:33:19.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-01-29T11:33:19.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-01-29T11:33:19.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-01-29T11:33:19.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-01-29T11:33:19.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\bin\x86\Debug\RemakeWindowsWeather.xr.xml">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\bin\x86\Debug\RemakeWindowsWeather.xr.xml">
       <PackagePath>RemakeWindowsWeather.xr.xml</PackagePath>
-      <Modified>2017-01-30T21:06:14.113</Modified>
+      <Modified>2017-01-31T20:22:06.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-01-29T12:01:16.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-30T21:06:14.810</Modified>
+      <Modified>2017-01-31T20:22:07.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\bin\x86\Debug\Core\RemakeWindowsWeather.exe">
+    <AppxPackagedFile Include="C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\bin\x86\Debug\Core\RemakeWindowsWeather.exe">
       <PackagePath>RemakeWindowsWeather.exe</PackagePath>
-      <Modified>2017-01-30T21:06:14.938</Modified>
+      <Modified>2017-01-31T20:22:07.829</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

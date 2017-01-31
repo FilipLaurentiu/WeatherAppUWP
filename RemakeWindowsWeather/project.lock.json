@@ -21962,10 +21962,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\flaur\\Desktop\\RemakeWindowsWeather\\RemakeWindowsWeather\\RemakeWindowsWeather.csproj",
+      "projectUniqueName": "C:\\Users\\flaur\\Desktop\\RemakeWindowsWeather\\WeatherAppUWP\\RemakeWindowsWeather\\RemakeWindowsWeather.csproj",
       "projectName": "RemakeWindowsWeather",
-      "projectPath": "C:\\Users\\flaur\\Desktop\\RemakeWindowsWeather\\RemakeWindowsWeather\\RemakeWindowsWeather.csproj",
-      "projectJsonPath": "C:\\Users\\flaur\\Desktop\\RemakeWindowsWeather\\RemakeWindowsWeather\\project.json",
+      "projectPath": "C:\\Users\\flaur\\Desktop\\RemakeWindowsWeather\\WeatherAppUWP\\RemakeWindowsWeather\\RemakeWindowsWeather.csproj",
+      "projectJsonPath": "C:\\Users\\flaur\\Desktop\\RemakeWindowsWeather\\WeatherAppUWP\\RemakeWindowsWeather\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

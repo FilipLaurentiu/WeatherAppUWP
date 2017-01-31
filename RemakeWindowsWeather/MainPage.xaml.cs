@@ -23,23 +23,26 @@ namespace RemakeWindowsWeather
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
         public MainPage()
         {
             this.InitializeComponent();
         }
 
-        private async void Button_Click(object sender, RoutedEventArgs e)
-        {
-            var pos = await LocationManager.GetLocation();
-
-            var lat = pos.Coordinate.Latitude;
-            var lon = pos.Coordinate.Latitude;
 
 
-            var weather = await WeatherProxyMap.GetWeather(lat, lon);
+        //private async void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    var pos = await LocationManager.GetLocation();
 
-            WeatherCondition.Text = ((int)weather.main.temp).ToString() + " " + weather.name;
-        }
+        //    var lat = pos.Coordinate.Latitude;
+        //    var lon = pos.Coordinate.Latitude;
+
+
+        //    var weather = await WeatherProxyMap.GetWeather(lat, lon);
+
+        //    WeatherCondition.Text = ((int)weather.main.temp).ToString() + " " + weather.name;
+        //}
 
         private async void Button_Click_1(object sender, RoutedEventArgs e)
         {

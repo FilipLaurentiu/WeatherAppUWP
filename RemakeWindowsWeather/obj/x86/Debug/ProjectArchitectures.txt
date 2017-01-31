@@ -1,1 +1,1 @@
-C:\Users\flaur\Desktop\RemakeWindowsWeather\RemakeWindowsWeather\RemakeWindowsWeather.csproj;x86
+C:\Users\flaur\Desktop\RemakeWindowsWeather\WeatherAppUWP\RemakeWindowsWeather\RemakeWindowsWeather.csproj;x86

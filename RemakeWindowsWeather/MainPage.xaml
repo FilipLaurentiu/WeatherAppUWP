@@ -5,24 +5,36 @@
     xmlns:local="using:RemakeWindowsWeather"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    xmlns:vm="using:RemakeWindowsWeather.ViewModels"
+    mc:Ignorable="d"
+    x:Name="MyPage">
 
+    <Page.Resources>
+        <vm:CommandViewModel x:Key="cmv" />
+    </Page.Resources>
+    
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel>
-            <Button Height="30"
+            <Button HorizontalAlignment="Center"
+                    Margin="0,20,0,0"
+                Height="30"
                     Width="120"
-                    Click="Button_Click" 
-                    Content="Get Weather"/>
+                    Content="Get Weather"
+                    Command="{Binding ShowWeather, Source={StaticResource cmv}}"/>
             <TextBlock Name="WeatherCondition" 
-                       Margin="0,20,0,20"/>
+                       Margin="0,20,0,20"
+                       Text="{Binding WeatherProp, Source={StaticResource cmv}}"/>
             <TextBox Name="CitySearch"
                      PlaceholderText="Search for weather.."
                      Margin="0,20,0,20"/>
             <Button Width="120"
                     Height="30"
                     Click="Button_Click_1"
-                    Content="Get Weather"/>
-            <TextBlock Name="CityNameTxtBlock"/>
+                    Content="Get Weather"
+                    HorizontalAlignment="Center"
+                    Margin="0,20,0,0"/>
+            <TextBlock Name="CityNameTxtBlock"
+                       />
         </StackPanel>
     </Grid>
 </Page>

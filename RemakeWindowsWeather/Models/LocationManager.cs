@@ -17,7 +17,7 @@ namespace RemakeWindowsWeather.Models
                 throw new Exception();
             }
 
-            var geolocator = new Geolocator { DesiredAccuracyInMeters = 0 };
+            var geolocator = new Geolocator { DesiredAccuracyInMeters = 1 };
 
             var position = await geolocator.GetGeopositionAsync();
             return position;
