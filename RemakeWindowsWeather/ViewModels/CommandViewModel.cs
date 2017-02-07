@@ -40,6 +40,7 @@ namespace RemakeWindowsWeather.ViewModels
         private bool canExecuteMethod(object parameter)
         {
             return true;
+            
         }
         private async void executeMethod(object parameter)
         {

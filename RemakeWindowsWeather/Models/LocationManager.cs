@@ -12,14 +12,13 @@ namespace RemakeWindowsWeather.Models
         public async static Task<Geoposition> GetLocation()
         {
             var accessStatus = await Geolocator.RequestAccessAsync();
-            if(accessStatus != GeolocationAccessStatus.Allowed)
-            {
-                throw new Exception();
-            }
 
-            var geolocator = new Geolocator { DesiredAccuracyInMeters = 1 };
+            if (accessStatus != GeolocationAccessStatus.Allowed) throw new Exception();
+
+            var geolocator = new Geolocator { DesiredAccuracyInMeters = 0 }; // 0 means accuratecy to default
 
             var position = await geolocator.GetGeopositionAsync();
+
             return position;
         }
 
