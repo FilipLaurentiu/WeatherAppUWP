@@ -29,10 +29,11 @@
             <my:MapControl MapServiceToken="4eVYvXhSZI7eg5FlYs0N~hz7aZatzxyMPDMf5wjDNwA~Ap9xA0xecTMAYh8JjfwiriWQ6Vp-Z0-foCmn9R_SueCDpzd176aBTNZDJQS39_qS"
                            Name="MyMap"
                            Height="200" 
-                           />
+                          />
             <TextBox Name="CitySearch"
                      PlaceholderText="Search for weather.."
-                     Margin="0,20,0,20"/>
+                     Margin="0,20,0,20"
+                     Width="300"/>
            
             <Button Width="120"
                     Height="30"

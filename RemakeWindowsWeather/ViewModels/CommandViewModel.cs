@@ -49,7 +49,7 @@ namespace RemakeWindowsWeather.ViewModels
             var lat = pos.Coordinate.Latitude;
             var lon = pos.Coordinate.Longitude;
             
-            var weather = await WeatherProxyMap.GetWeather(lon, lat);
+            var weather = await WeatherProxyMap.GetWeather(lat, lon);
             if (weather != null)
             {
                 WeatherProp = weather.main.temp + " " + weather.name;
